@@ -45,10 +45,7 @@ a:hover {
 }
 
 body {
-  @apply m-0 min-w-[320px] min-h-screen;
-  display: flex;
-  flex-direction: column;
-  place-items: center;
+  @apply m-0 flex place-items-center min-w-[320px] min-h-screen;
 }
 
 h1 {
